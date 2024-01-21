@@ -1,0 +1,25 @@
+body
+{
+    margin: 0px;
+}
+
+.Red
+{
+    background: red;
+    height: 219px;
+}
+
+.Blue
+{
+    background: blue;
+    height: 219px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Green
+{
+    background: green;
+    height: 219px;
+
+}
