@@ -1,0 +1,85 @@
+.tweetBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+}
+  
+.tweetBox>form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.tweetBox__input {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+  
+.tweetBox__input>input {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 20px;
+    border: none;
+    margin-top: 0px;
+}
+  
+.tweetBox__imageInput {
+    border: none;
+    padding: 5px 20px;
+}
+  
+.imageIcon_tweetButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.tweetBox__tweetButton {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-transform: inherit !important;
+    border-radius: 50px !important;
+    width: 100px;
+    height: 40px !important;
+}
+  
+.imageIcon {
+    color: var(--twitter-color);
+    padding-left: 25px;
+}
+  
+.imageInput {
+    display: none;
+}
+
+.audioRecorder {
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.audioRecorder Button {
+    margin: 0 5px;
+    min-width: 60px;
+    border-radius: 20px;
+}
+
+.sound-wave {
+    display: none; /* Hide the waveform but keep recording functionality */
+}
+
+.audioRecorder audio {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    transition: width 0.3s ease;
+}
+
+.audioRecorder audio:hover {
+    width: 200%;
+
+}
